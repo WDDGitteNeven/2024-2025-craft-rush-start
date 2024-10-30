@@ -1,0 +1,13 @@
+.c-header {
+  display: flex;
+  align-items: center;
+  &__nav {
+    flex-grow: 1;
+  }
+  &__shortcut {
+    display: flex;
+    align-items: center;
+  }
+  &__symbol {
+  }
+}

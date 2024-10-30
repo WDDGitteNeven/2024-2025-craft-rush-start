@@ -1,4 +1,4 @@
-dateModified: 1726233031
+dateModified: 1730046049
 email:
   fromEmail: voornaam.naam@howest.be
   fromName: 'Craft Template'
@@ -6,7 +6,7 @@ email:
 meta:
   __names__:
     10d2260b-dd05-4a49-abb3-800017e15928: 'Craft Template' # Craft Template
-    f6eaef1f-2f88-4856-8eee-c5ae9620f572: 'Craft Template' # Craft Template
+    f6eaef1f-2f88-4856-8eee-c5ae9620f572: rush # rush
 plugins:
   vite:
     edition: standard

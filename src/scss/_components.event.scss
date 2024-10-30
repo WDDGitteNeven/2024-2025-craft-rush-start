@@ -1,0 +1,48 @@
+$height-img: 300px;
+$height-container: 370px;
+
+.c-event {
+  box-sizing: border-box;
+  position: relative;
+  height: $height-container;
+  width: $size-container/4;
+  padding: 0.5rem;
+  &__image {
+    height: $height-img;
+    background-color: pink;
+  }
+  &__info {
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 85%;
+    height: ($height-container - $height-img) *1.7; 
+    box-sizing: border-box;
+    z-index: 100;
+    background-color: white;
+    padding: 1rem 0;
+    margin-left: 0.5rem;
+  }
+  &__symbol {
+    width: 100%;
+    height: $height-img;
+    object-fit: cover;
+  }
+  &__date {
+    font-family: 'Tangerine', cursive;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: $color-accent--dark;
+    margin: 0 0 0.25rem 0;
+  }
+  &__title {
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0 0 1rem 0;
+  }
+
+  &:nth-child(2n+1) {
+    margin-top: 1.5rem;
+  }
+}

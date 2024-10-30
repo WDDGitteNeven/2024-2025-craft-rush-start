@@ -1,0 +1,10 @@
+.c-button {
+  border: 1px solid $color-accent;
+  text-decoration: none;
+  color: $color-black;
+  padding: 0.25rem 1rem;
+  transition: $speed background-color;
+  &:hover {
+    background-color: $color-accent--light;
+  }
+}

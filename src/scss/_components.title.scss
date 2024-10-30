@@ -1,0 +1,28 @@
+.c-title {
+  display: flex;
+  letter-spacing: 0.2em;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0 0 2rem 0;
+  align-items: center;
+
+  &::before {
+    content:'';
+    display: block;
+    height: 0px;
+    width: 1px;
+    border-top: $color-accent--light solid 1px;
+    margin: 0 2rem;
+    flex-grow: 1;
+  }
+
+  &::after {
+    content:'';
+    display: block;
+    height: 0px;
+    width: 1px;
+    border-top: $color-accent--light solid 1px;
+    margin: 0 2rem;
+    flex-grow: 1;
+  }
+}
